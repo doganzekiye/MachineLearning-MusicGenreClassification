@@ -1,1 +1,3 @@
 # MachineLearning-MusicGenreClassification
+
+This project was developed to find the musical genre of a song by finding a particular pattern on the train dataset. First of all, the dataset was examined and the relations between the features and the target were examined and the most optimal model was tried to be found. Target attribute is a multi-label feature. The developed model has been tested and its accurancy, f1-score, recall and precision values have not been found satisfactory. Thereupon, a new target feature was created by considering the relations between the features and it was tried to make the best use of the dataset.
