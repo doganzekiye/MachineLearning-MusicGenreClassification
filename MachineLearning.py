@@ -26,7 +26,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 dataset = pd.read_csv(
-    "D:/CME4403/term_project/dataset/train.csv", na_values=[np.nan])
+    "xxx/train.csv", na_values=[np.nan])
 # Delete 'Track Name' feature, redundant
 dataset = dataset.drop(['Track Name', 'Artist Name'], axis=1)
 
